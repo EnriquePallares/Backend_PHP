@@ -1,0 +1,142 @@
+body{
+  background-image: url('../img/fondo.jpg') !important ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contenedor{
+  background-color: rgba(242, 242, 242, 0.5);
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 700px;
+  height: auto;
+  align-content: flex-start;
+}
+
+.rowTitulo{
+  width: 100%;
+  text-align: center;
+  background-color: #648C7D;
+  color: #F2F2F2;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 130px;
+}
+.colFiltros{
+  width: 25%;
+  height: 100%;
+  min-height: 570px;
+}
+.filtrosContenido, .colContenido, .colFiltros form{
+  min-height: 570px;
+}
+
+.filtrosContenido{
+  width: 100%;
+  margin: 0 0;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+.tituloFiltros{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.tituloFiltros h5{
+    font-size: 1.3rem;
+}
+.filtroCiudad{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.filtroCiudad .select-wrapper{
+  margin: 25px auto;
+  width: 90%;
+}
+.filtroTipo{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.filtroTipo .select-wrapper{
+  margin: 5px auto;
+  width: 90%;
+}
+.filtroPrecio{
+  margin: 15px auto;
+  width: 90%;
+  height: 100px;
+}
+.filtroPrecio label{
+  font-size: 1rem;
+}
+.botonField{
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.botonField input{
+  color: #648C7D;
+}
+.colContenido{
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  padding: 20px;
+}
+.tituloContenido{
+  width: 100%;
+  min-height: 170px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 5px;
+}
+.tituloContenido h5{
+  width: 100%;
+  margin: 0.5rem 5px;
+  margin-bottom: 2rem;
+  height: 10px;
+  font-size: 2rem;
+}
+
+.tituloContenido button{
+  background: #648C7D;
+  color: #F2F2F2;
+  margin-top: 2rem;
+  margin-right: 1rem;
+
+}
+.divider{
+  width: 100%;
+}
+.itemMostrado{
+  width: 100%;
+  margin-top: 0.4rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.itemMostrado img{
+  width: 35% !important;
+  height: 100% !important;
+}
+.precioTexto{
+  font-size: 1.3rem;
+  color: #ffab40;
+}
+.card-stacked{
+  width: 65%;
+  padding-left: 2%;
+}
+.card-action{
+  text-align: right;
+}
